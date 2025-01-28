@@ -12,7 +12,7 @@ The ST-Link Utility software can be downloaded with the following link:
 
 After downloading both of them, the setup of STM32Cube IDE can be guided as follows:
 [STm32Cube Setup](https://youtu.be/OSVffISU7DQ?si=I9No71ysC6M9cvIb&t=386). <br>
-Note that the driver selected is *STM32F411CCU6*. <br>
+Note that the driver selected is *STM32F411CCU6*, depends on your STM32 Model. <br>
 
 After setting all of it, the main.c file can be found in /Core/Src/main.c file. <br>
 The github repository includes the **core files**, which contains the Inc (Include Files) & Src (Source Files). <br>
