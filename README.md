@@ -3,7 +3,7 @@ Smart Home Temperature &amp; Light Controlling with Sensors with the utilization
 
 ## Method 1: Implementing with STM32Cube IDE
 
-The STM32Cube IDE software can be downloaded with the following link:
+The STM32Cube IDE Software can be downloaded with the following link:
 [STM32Cube](https://www.st.com/en/development-tools/stm32cubeide.html). <br>
 Make sure that your STM32Cube.exe is added to the System Environment Path. <br>
 
@@ -19,9 +19,23 @@ The github repository includes the **core files**, which contains the Inc (Inclu
 Please ensure everything in the files are downloaded and been paste to the directory file. <br>
 The main.c file is the main executable file to be used in the project. <br>
 
+## Method 2: Implementing with Arduino IDE
+
+The Arduino IDE Software can be downloaded as the following link: 
+[Arduino IDE](https://www.arduino.cc/en/software). <br>
+
+After downloading the Arduino IDE Software, click File > Preference, navigate to Additional Board Manager URLs and insert **http://dan.drown.org/stm32duino/package_STM32duino_indexa.json**. <br> 
+Next, click Sketch > Include Library > Manage Libraries, and download every STM32 core files. <br> 
+
+After downloading the STM32 Core Files, the DHT11 files can be downloaded in Manage Libraries as well. <br> 
+
+The code files of the Arduino IDE can be found in the Github Repository. 
+
 ## Pin Assignment
 DHTPIN: PA0 <br>
 DHTTYPE: DHT11 // DHTxx, where as xx represents your model. <br>
 TEMP_LED_PIN: PB0 <br>
 LIGHT_LED_PIN: PB1 <br>
 LDR_PIN: PA1 <br>
+
+
